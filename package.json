@@ -1,0 +1,15 @@
+{
+  "name": "seo-link-analyzer",
+  "version": "1.0.0",
+  "description": "SEO link analyzer",
+  "main": "index.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "jest"
+  },
+  "author": "tcluri",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.1.2"
+  }
+}
