@@ -1,4 +1,5 @@
 const { crawlPage } = require('./crawl.js')
+const { printReport } = require('./report.js')
 
 async function main() {
   const argvlength = process.argv.length
@@ -14,7 +15,8 @@ async function main() {
     // Call crawlPage on baseURL to print the
     // HTML output as a string
     const pages = await crawlPage(baseURL, baseURL, {})
-    console.log(pages)
+    // console.log(pages)
+    printReport(pages)
   }
 }
 
